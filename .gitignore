@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+build/
+dist/
+pip-wheel-metadata/
+.Python
+
+# Virtual environments and package managers
+.venv/
+venv/
+env/
+ENV/
+.env/
+.conda/
+conda-env/
+poetry.lock.tmp
+
+# Secrets and credentials
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.*
+*_credentials.*
+*_secret.*
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Raw, processed, and generated datasets
+data/raw/
+data/processed/
+datasets/
+*.csv
+*.csv.gz
+*.tsv
+*.tsv.gz
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.rds
+
+# Trained models and generated outputs
+models/
+artifacts/
+checkpoints/
+*.joblib
+*.model
+*.pt
+*.pth
+*.onnx
+*.keras
+*.h5
+
+# Caches, logs, temporary files
+.cache/
+cache/
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+~$*
+
+# Operating systems and editors
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.idea/
+.vscode/
